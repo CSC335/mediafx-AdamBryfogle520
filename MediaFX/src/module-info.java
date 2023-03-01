@@ -1,0 +1,3 @@
+module MediaFX {
+	exports PlaySongDemo;
+}
