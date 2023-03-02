@@ -39,7 +39,9 @@ public class PlayAnMP3 extends Application {
 	}
 
 	private void playASong(String path) {
+		
 		System.out.println("adding JavaFX changes nothing and does not run");
+		System.out.println("this should be a change");
 		// Need a File and URI object so the path works on all OSs
 		File file = new File(path);
 		URI uri = file.toURI();
